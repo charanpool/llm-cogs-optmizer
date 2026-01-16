@@ -2,6 +2,8 @@
 
 A middleware tool designed to optimize the Cost of Goods Sold (COGS) for LLM-based applications. It intelligently routes queries between low-cost local models (e.g., Ollama, Llama.cpp) and high-performance cloud APIs (e.g., Vertex AI, OpenAI) based on query complexity and cost configurations.
 
+> **Note**: This project is intentionally designed to be simple and lightweight, providing a clean foundation that is easy to audit, integrate, and extend.
+
 ## Features
 
 - **Smart Routing**: Analyzes query complexity to decide between local vs. cloud execution.
